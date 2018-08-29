@@ -1,0 +1,93 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W65C02S6TPG-14
+D W65C02S 8-bit CMOS General Purpose Microprocessor, DIP-40
+K 6502 CPU uP
+F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C02S6TPLG-14
+D W65C02S 8-bit CMOS Microprocessor, 44-pin PLCC
+K MPRO 8-bit 65C02
+F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C02S6TQG-14
+D W65C02S 8-bit CMOS Microprocessor, 44-pin LQFP
+K MPRO 8-bit 65C02
+F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C21N6TPG-14
+D W65C21N Peripheral Interface Adaptor (PIA), 40-pin PDIP, NMOS-compatible
+K PIA 65C21
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21N6TPLG-14
+D W65C21N Peripheral Interface Adaptor (PIA), 44-pin PLCC, NMOS-compatible
+K PIA 65C21
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21S6TPG-14
+D W65C21S Peripheral Interface Adaptor (PIA), 40-pin PDIP
+K PIA 65C21
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21S6TPLG-14
+D W65C21S Peripheral Interface Adaptor (PIA), 44-pin PLCC
+K PIA 65C21
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C22N6TPG-14
+D W65C22N Versatile Interface Adaptor (VIA), 40-pin PDIP, NMOS-compatible
+K VIA 65C22
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22N6TPLG-14
+D W65C22N Versatile Interface Adaptor (VIA), 44-pin PLCC, NMOS-compatible
+K VIA 65C22
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22S6TPG-14
+D W65C22S Versatile Interface Adaptor (VIA), 40-pin PDIP
+K VIA 65C22
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22S6TPLG-14
+D W65C22S Versatile Interface Adaptor (VIA), 44-pin PLCC
+K VIA 65C22
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22S6TQG-14
+D W65C22S Versatile Interface Adaptor (VIA), 44-pin QFP
+K VIA 65C22
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C51N6TPG-14
+D W65C51N Asynchronous Communications Interface Adaptor (ACIA), 28-pin PDIP
+K ACIA 65C51 uart rs232
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+$CMP W65C51N6TPLG-14
+D W65C51N Asynchronous Communications Interface Adaptor (ACIA), 28-pin PLCC
+K ACIA 65C51 uart rs232
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+$CMP W65C51N6TQG-14
+D W65C51N Asynchronous Communications Interface Adaptor (ACIA), 32-pin LQFP
+K ACIA 65C51 uart rs232
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+#End Doc Library
