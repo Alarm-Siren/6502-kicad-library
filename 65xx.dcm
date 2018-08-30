@@ -18,6 +18,10 @@ K 6502 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
 $ENDCMP
 #
+$CMP W65C134SxPLx-x
+F http://www.westerndesigncenter.com/wdc/documentation/w65c134s.pdf
+$ENDCMP
+#
 $CMP W65C816SxxPLx-xx
 D W65C816S 8/16-bit CMOS General Purpose Microprocessor, PLCC-44
 K 6502 65816 CPU uP
