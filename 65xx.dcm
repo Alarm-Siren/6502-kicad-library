@@ -1,20 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP W65C02S6TPG-14
+$CMP W65C02SxxPLx-xx
+D W65C02S 8-bit CMOS General Purpose Microprocessor, PLCC-44
+K 6502 CPU uP
+F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C02SxxPx-xx
 D W65C02S 8-bit CMOS General Purpose Microprocessor, DIP-40
 K 6502 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
 $ENDCMP
 #
-$CMP W65C02S6TPLG-14
-D W65C02S 8-bit CMOS Microprocessor, 44-pin PLCC
-K MPRO 8-bit 65C02
-F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
-$ENDCMP
-#
-$CMP W65C02S6TQG-14
-D W65C02S 8-bit CMOS Microprocessor, 44-pin LQFP
-K MPRO 8-bit 65C02
+$CMP W65C02SxxQx-xx
+D W65C02S 8-bit CMOS General Purpose Microprocessor, PQFP-44
+K 6502 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
 $ENDCMP
 #
