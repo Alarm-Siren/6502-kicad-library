@@ -1,40 +1,142 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP W65C02SxxPLx-xx
-D W65C02S 8-bit CMOS General Purpose Microprocessor, PLCC-44
+$CMP 6502
+D 6502 8-bit NMOS Microprocessor, 64K, DIP-40
 K 6502 CPU uP
-F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
 $ENDCMP
 #
-$CMP W65C02SxxPx-xx
+$CMP 6503
+D 6503 8-bit NMOS Microprocessor, 4K, DIP-28
+K 6502 6503 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6504
+D 6504 8-bit NMOS Microprocessor, 8K, DIP-28
+K 6502 6504 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6505
+D 6505 8-bit NMOS Microprocessor, 4K, DIP-28
+K 6502 6505 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6506
+D 6506 8-bit NMOS Microprocessor, 4K, DIP-28
+K 6502 6506 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6507
+D 6507 8-bit NMOS Microprocessor, 8K, DIP-28
+K 6502 6507 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6508
+D 6508 8-bit NMOS Microprocessor, 64K, 8-bit I/O Port, 256 Byte RAM, DIP-40
+K 6502 6508 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6508_mpu.pdf
+$ENDCMP
+#
+$CMP 6509
+D 6509 8-bit NMOS Microprocessor, 16x64K, DIP-40
+K 6502 6509 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6509_mpu.pdf
+$ENDCMP
+#
+$CMP 6510
+D 6510 8-bit NMOS Microprocessor, 64K, 6-bit I/O Port, DIP-40
+K 6502 6510 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6510_mpu.pdf
+$ENDCMP
+#
+$CMP 6510-1
+D 6510-1 8-bit NMOS/HMOS Microprocessor, 64K, 8-bit I/O Port, 2ϕ Clock, DIP-40
+K 6502 6510-1 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6510_mpu.pdf
+$ENDCMP
+#
+$CMP 6510-2
+D 6510-2 8-bit NMOS/HMOS Microprocessor, 64K, 8-bit I/O Port, DIP-40
+K 6502 6510-2 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6510_mpu.pdf
+$ENDCMP
+#
+$CMP 6510T
+D 6510T 8-bit NMOS/HMOS Microprocessor, 64K, 8-bit I/O Port, DIP-40
+K 6502 6510T CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6510_mpu.pdf
+$ENDCMP
+#
+$CMP 6512
+D 6512 8-bit NMOS Microprocessor, 64K, 2ϕ Clock, DIP-40
+K 6502 6512 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6513
+D 6513 8-bit NMOS Microprocessor, 4K, 2ϕ Clock, DIP-28
+K 6502 6513 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6514
+D 6514 8-bit NMOS Microprocessor, 8K, 2ϕ Clock, DIP-28
+K 6502 6514 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 6515
+D 6515 8-bit NMOS Microprocessor, 4K, 2ϕ Clock, DIP-28
+K 6502 6515 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
+$ENDCMP
+#
+$CMP 8500
+D 8500 8-bit HMOS Microprocessor, 64K, 6-bit I/O Port, DIP-40
+K 6502 8500 CPU uP
+$ENDCMP
+#
+$CMP 8502
+D 8502 8-bit HMOS Microprocessor, 64K, 7-bit I/O Port, DIP-40
+K 6502 8502 CPU uP
+$ENDCMP
+#
+$CMP W65C02SxP
 D W65C02S 8-bit CMOS General Purpose Microprocessor, DIP-40
 K 6502 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
 $ENDCMP
 #
-$CMP W65C02SxxQx-xx
+$CMP W65C02SxPL
+D W65C02S 8-bit CMOS General Purpose Microprocessor, PLCC-44
+K 6502 CPU uP
+F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C02SxQ
 D W65C02S 8-bit CMOS General Purpose Microprocessor, PQFP-44
 K 6502 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
 $ENDCMP
 #
-$CMP W65C134SxPLx-x
-F http://www.westerndesigncenter.com/wdc/documentation/w65c134s.pdf
-$ENDCMP
-#
-$CMP W65C816SxxPLx-xx
-D W65C816S 8/16-bit CMOS General Purpose Microprocessor, PLCC-44
-K 6502 65816 CPU uP
-F http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
-$ENDCMP
-#
-$CMP W65C816SxxPx-xx
+$CMP W65C816SxP
 D W65C816S 8/16-bit CMOS General Purpose Microprocessor, DIP-40
 K 6502 65816 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
 $ENDCMP
 #
-$CMP W65C816SxxQx-xx
+$CMP W65C816SxPL
+D W65C816S 8/16-bit CMOS General Purpose Microprocessor, PLCC-44
+K 6502 65816 CPU uP
+F http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
+$ENDCMP
+#
+$CMP W65C816SxQ
 D W65C02S 8/16-bit CMOS General Purpose Microprocessor, PQFP-44
 K 6502 65816 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
