@@ -96,6 +96,18 @@ K 6502 6515 CPU uP
 F http://www.6502.org/documents/datasheets/mos/mos_6500_mpu_mar_1980.pdf
 $ENDCMP
 #
+$CMP 6520
+D 6520 NMOS Peripheral Interface Adapter (PIA), 20-pin I/O, DIP-40
+K 6502 6520 PIA I/O
+F http://www.6502.org/documents/datasheets/mos/mos_6520.pdf
+$ENDCMP
+#
+$CMP 65CE02
+D 6502 8-bit CMOS Microprocessor, 64K, DIP-40
+K 6502 65CE02 CPU uP
+F http://www.6502.org/documents/datasheets/mos/mos_65ce02_mpu.pdf
+$ENDCMP
+#
 $CMP 8500
 D 8500 8-bit HMOS Microprocessor, 64K, 6-bit I/O Port, DIP-40
 K 6502 8500 CPU uP
@@ -122,6 +134,18 @@ $CMP W65C02SxQ
 D W65C02S 8-bit CMOS General Purpose Microprocessor, PQFP-44
 K 6502 CPU uP
 F http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C21NxP
+D W65C21N CMOS Peripheral Interface Adapter (PIA), 20-pin I/O, NMOS-Compatible, DIP-40
+K 6502 6521 PIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21SxP
+D W65C21S CMOS Peripheral Interface Adapter (PIA), 20-pin I/O, DIP-40
+K 6502 6521 PIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
 $ENDCMP
 #
 $CMP W65C816SxP
