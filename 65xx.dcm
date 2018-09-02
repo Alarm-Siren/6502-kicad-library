@@ -102,6 +102,12 @@ K 6502 6520 PIA I/O
 F http://www.6502.org/documents/datasheets/mos/mos_6520.pdf
 $ENDCMP
 #
+$CMP 6522
+D 6522 NMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, DIP-40
+K 6502 6522 VIA I/O
+F http://www.6502.org/documents/datasheets/mos/mos_6522_preliminary_nov_1977.pdf
+$ENDCMP
+#
 $CMP 65CE02
 D 6502 8-bit CMOS Microprocessor, 64K, DIP-40
 K 6502 65CE02 CPU uP
@@ -142,10 +148,52 @@ K 6502 6521 PIA I/O
 F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
 $ENDCMP
 #
+$CMP W65C21NxPL
+D W65C21N CMOS Peripheral Interface Adapter (PIA), 20-pin I/O, NMOS-Compatible, PLCC-44
+K 6502 6521 PIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
 $CMP W65C21SxP
 D W65C21S CMOS Peripheral Interface Adapter (PIA), 20-pin I/O, DIP-40
 K 6502 6521 PIA I/O
 F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21SxPL
+D W65C21S CMOS Peripheral Interface Adapter (PIA), 20-pin I/O, PLCC-44
+K 6502 6521 PIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C22NxP
+D W65C22N CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, NMOS-Compatible, DIP-40
+K 6502 6522 VIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22NxPL
+D W65C22N CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, NMOS-Compatible, PLCC-44
+K 6502 6522 VIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22SxP
+D W65C22S CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, DIP-40
+K 6502 6522 VIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22SxPL
+D W65C22S CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, PLCC-44
+K 6502 6522 VIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22SxQ
+D W65C22S CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, PQFP-44
+K 6502 6522 VIA I/O
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
 $ENDCMP
 #
 $CMP W65C816SxP
