@@ -108,6 +108,30 @@ K 6502 6522 VIA I/O
 F http://www.6502.org/documents/datasheets/mos/mos_6522_preliminary_nov_1977.pdf
 $ENDCMP
 #
+$CMP 6523
+D 6523 NMOS Tri-Port Interface (TPI), 24-pin I/O, DIP-40
+K 6502 6523 TPI I/O
+F http://www.6502.org/documents/datasheets/mos/mos_6523_tpi_preliminary_nov_1980.pdf
+$ENDCMP
+#
+$CMP 6525
+D 6525 NMOS Tri-Port Interface (TPI), 24-pin I/O, DIP-40
+K 6502 6525 TPI I/O
+F http://www.6502.org/documents/datasheets/mos/mos_6525_tpi_preliminary.pdf
+$ENDCMP
+#
+$CMP 6526
+D 6526 NMOS Complex Interface Adapter (CIA), 20-pin I/O, 2 Timer/Counters, RTC, DIP-40
+K 6502 6526 CIA I/O
+F http://www.6502.org/documents/datasheets/mos/mos_6526_cia_preliminary_nov_1981.pdf
+$ENDCMP
+#
+$CMP 6529
+D 6529 NMOS Single Port Interface (SPI), 8-pin I/O, DIP-20
+K 6502 6529 SPI I/O
+F http://www.6502.org/documents/datasheets/mos/mos_6529_spi.pdf
+$ENDCMP
+#
 $CMP 65CE02
 D 6502 8-bit CMOS Microprocessor, 64K, DIP-40
 K 6502 65CE02 CPU uP
