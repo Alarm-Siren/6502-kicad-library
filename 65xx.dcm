@@ -132,6 +132,12 @@ K 6502 6529 SPI I/O
 F http://www.6502.org/documents/datasheets/mos/mos_6529_spi.pdf
 $ENDCMP
 #
+$CMP 6532
+D 6532 NMOS Memory, I/O and Timer Array (RIOT), 16-pin I/O, 1 Timer/Counter, 128-byte SRAM, DIP-40
+K 6502 6532 RIOT I/O RAM
+F http://www.6502.org/documents/datasheets/mos/mos_6532_riot.pdf
+$ENDCMP
+#
 $CMP 65CE02
 D 6502 8-bit CMOS Microprocessor, 64K, DIP-40
 K 6502 65CE02 CPU uP
