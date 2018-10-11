@@ -150,6 +150,18 @@ K 6502 6551 ACIA UART
 F http://www.6502.org/documents/datasheets/mos/mos_6551_acia.pdf
 $ENDCMP
 #
+$CMP 6581
+D 6581 NMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
+K 6502 6581 SID Sound
+F http://www.6502.org/documents/datasheets/mos/mos_6581_sid.pdf
+$ENDCMP
+#
+$CMP 6582
+D 6582 NMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
+K 6502 6582 SID Sound
+F http://www.6502.org/documents/datasheets/mos/mos_6582_sid.pdf
+$ENDCMP
+#
 $CMP 65CE02
 D 6502 8-bit CMOS Microprocessor, 64K, DIP-40
 K 6502 65CE02 CPU uP
@@ -164,6 +176,12 @@ $ENDCMP
 $CMP 8502
 D 8502 8-bit HMOS Microprocessor, 64K, 7-bit I/O Port, DIP-40
 K 6502 8502 CPU uP
+$ENDCMP
+#
+$CMP 8580
+D 8580 HMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
+K 6502 8580 SID Sound
+F http://www.6502.org/documents/datasheets/mos/mos_6582_sid.pdf
 $ENDCMP
 #
 $CMP W65C02SxP
