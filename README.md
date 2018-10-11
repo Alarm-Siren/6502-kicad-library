@@ -57,6 +57,12 @@ Planned for future inclusion:
 - The TED
 - The WDC 6502-derived Microcontrollers
 
+## Schematic Compatibility Between Similar Components
+
+The schematic components in this library have been specifically laid out out such that chips with similar function and purpose will have compatible/equivalent pins in the same position, and incompatible pins will not overlap. This means it should be easy to replace one similar component with another, with minimal or no re-wiring; it also means that such a replacement should not result in a signal being routed to an incompatible pin by accident.
+
+For example, if you were creating a design with the 6502 part, but then decided to replace it with a 6512 part, the phase 0 and phase 2 pins are in the same location because they have compatible functionality, but the phase 1 pins are not in the same place because on the 6512 it is an input, whilst on the 6502 it is and output.
+
 ## Comments, Requests, Bugs & Contributions
 All are welcome.  
 Please file an Issue or Pull Request at https://github.com/Alarm-Siren/6502-kicad-library
