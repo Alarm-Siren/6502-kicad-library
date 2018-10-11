@@ -140,8 +140,14 @@ $ENDCMP
 #
 $CMP 6545
 D 6545 NMOS CRT Controller (CRTC), DIP-40
-K 6502 6545 CRTC I/O
+K 6502 6545 CRTC Video
 F http://www.6502.org/documents/datasheets/mos/mos_6545-1_crtc.pdf
+$ENDCMP
+#
+$CMP 6551
+D 6551 NMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, DIP-28
+K 6502 6551 ACIA UART
+F http://www.6502.org/documents/datasheets/mos/mos_6551_acia.pdf
 $ENDCMP
 #
 $CMP 65CE02
@@ -230,6 +236,24 @@ $CMP W65C22SxQ
 D W65C22S CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, PQFP-44
 K 6502 6522 VIA I/O
 F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C51NxP
+D W65C51N CMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, DIP-28
+K 6502 6551 ACIA UART
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+$CMP W65C51NxPL
+D W65C51N CMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, PLCC-28
+K 6502 6551 ACIA UART
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+$CMP W65C51NxQ
+D W65C51N CMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, PQFP-32
+K 6502 6551 ACIA UART
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
 $ENDCMP
 #
 $CMP W65C816SxP
