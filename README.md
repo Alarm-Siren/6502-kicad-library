@@ -59,13 +59,13 @@ Planned for future inclusion:
 
 ## Schematic Compatibility Between Similar Components
 
-The schematic components in this library have been specifically laid out out such that chips with similar function and purpose will have compatible/equivalent pins in the same position, and incompatible pins will not overlap. This means it should be easy to replace one similar component with another, with minimal or no re-wiring; it also means that such a replacement should not result in a signal being routed to an incompatible pin by accident.
+The schematic components in this library have been specifically laid out such that chips with similar function and purpose will have compatible/equivalent pins in the same position, and incompatible pins will not overlap. This means it should be easy to replace one similar component with another, with minimal or no re-wiring; it also means that such a replacement should not result in a signal being routed to an incompatible pin by accident.
 
-For example, if you were creating a design with the 6502 part, but then decided to replace it with a 6512 part, the phase 0 and phase 2 pins are in the same location because they have compatible functionality, but the phase 1 pins are not in the same place because on the 6512 it is an input, whilst on the 6502 it is and output.
+For example, if you were creating a design with the 6502 part, but then decided to replace it with a 6512 part, the phase 0 and phase 2 pins are in the same location because they have compatible functionality, but the phase 1 pins are not because on the 6512 it is an input, whilst on the 6502 it is an output.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome.  
-Please file an Issue or Pull Request at https://github.com/Alarm-Siren/6502-kicad-library
+Please file an Issue or Pull Request at https://github.com/Alarm-Siren/6502-Kicad-library
 
 ## License
 Copyright 2018, Nicholas Parks Young. All Rights Reserved.  
@@ -78,4 +78,11 @@ If you've found this library useful and you'd like to make a donation towards it
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
 ## Library Setup
-*To Do*
+To add this library to your KiCad Project, do the following steps:
+1. Copy the source files "65xx.lib" and "65xx.dcm" to the root of your KiCad project's folder.
+2. In Eeschema (the schematic editor of KiCad) go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
+3. In the Symbol Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
+4. Click "Append Library", beneath the table.
+5. In the new line of the table, set Library Path to "$(KIPRJMOD)\65xx.lib" on Windows or "$(KIPRJMOD)/65xx.lib" on Linux/Mac, and ensure Plugin Type is "Legacy".
+6. You can leave the Options and Description fields blank. You should set Nickname to something descriptive - for example, "65xx library".
+7. All done: you are now ready to use these schematic components in your project!
