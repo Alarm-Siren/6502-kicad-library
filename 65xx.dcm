@@ -255,6 +255,12 @@ K 6502 6522 VIA I/O
 F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
 $ENDCMP
 #
+$CMP W65C265SxPLG
+D W65C265S 8/16-bit CMOS General Purpose Microcontroller, PLCC-84
+K 6502 65816 CPU uP
+F http://www.westerndesigncenter.com/wdc/documentation/w65c265s.pdf
+$ENDCMP
+#
 $CMP W65C51NxP
 D W65C51N CMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, DIP-28
 K 6502 6551 ACIA UART
