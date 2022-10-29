@@ -28,5 +28,6 @@ testproject.kicad_prl
 testproject-backups
 fp-lib-table
 sym-lib-table
+fp-info-cache
 *-cache.lib
 *-rescue.lib
