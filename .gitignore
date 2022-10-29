@@ -21,9 +21,11 @@ _autosave-*
 *.csv
 
 # Ignore the testproject files
-testproject.sch
-testproject.pro
+testproject.kicad_sch
+testproject.kicad_pro
 testproject.kicad_pcb
+testproject.kicad_prl
+testproject-backups
 fp-lib-table
 sym-lib-table
 *-cache.lib
