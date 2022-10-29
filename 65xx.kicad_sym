@@ -3747,7 +3747,7 @@
     (property "ki_description" "6551 NMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, DIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP-28_W15.24mm* PLCC28" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP-28_W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "6551_0_1"
@@ -3890,7 +3890,7 @@
     (property "ki_description" "W65C51N CMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, DIP-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP-28_W15.24mm* PLCC28" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "DIP-28_W15.24mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3913,7 +3913,7 @@
     (property "ki_description" "W65C51N CMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, PLCC-28" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP-28_W15.24mm* PLCC28" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PLCC-28*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4627,7 +4627,7 @@
     (property "ki_description" "W65C02S 8-bit CMOS General Purpose Microprocessor, PLCC-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLCC44" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PLCC-44*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C02SxPL_0_1"
@@ -4834,7 +4834,7 @@
     (property "ki_description" "W65C02S 8-bit CMOS General Purpose Microprocessor, PQFP-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PQFP-44_10x10mm_Pitch0.8mm" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "LQFP-44_10x10mm_P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C02SxQ_0_1"
@@ -5344,7 +5344,7 @@
     (property "ki_description" "W65C21S CMOS Peripheral Interface Adapter (PIA), 20-pin I/O, PLCC-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLCC44" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PLCC-44*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C21SxPL_0_1"
@@ -5551,7 +5551,7 @@
     (property "ki_description" "W65C21N CMOS Peripheral Interface Adapter (PIA), 20-pin I/O, NMOS-Compatible, PLCC-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLCC44" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PLCC-44*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5574,7 +5574,7 @@
     (property "ki_description" "W65C22N CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, NMOS-Compatible, PLCC-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLCC44" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PLCC-44*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C22NxPL_0_1"
@@ -5972,7 +5972,7 @@
     (property "ki_description" "W65C22S CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, PLCC-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLCC44" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PLCC-44*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C22SxPL_0_1"
@@ -6179,7 +6179,7 @@
     (property "ki_description" "W65C22S CMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, PQFP-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PQFP-44_10x10mm_Pitch0.8mm" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "LQFP-44_10x10mm_P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C22SxQ_0_1"
@@ -6386,7 +6386,7 @@
     (property "ki_description" "W65C51N CMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, PQFP-32" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "LQFP-32_7x7mm_Pitch0.8mm" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "LQFP-32_7x7mm_P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C51NxQ_0_1"
@@ -6736,7 +6736,7 @@
     (property "ki_description" "W65C816S 8/16-bit CMOS General Purpose Microprocessor, PLCC-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PLCC44" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PLCC-44*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C816SxPL_0_1"
@@ -6943,7 +6943,7 @@
     (property "ki_description" "W65C02S 8/16-bit CMOS General Purpose Microprocessor, PQFP-44" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PQFP-44_10x10mm_Pitch0.8mm" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "LQFP-44_10x10mm_P0.8mm*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "W65C816SxQ_0_1"
