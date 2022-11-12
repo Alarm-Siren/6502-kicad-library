@@ -1,5 +1,5 @@
 # 6502 KiCad Library
-*Version 2.0.1*
+*Version 2.0.2*
 
 Library of schematic components of a variety of Commodore, MOS Technologies and Wester Design Center chips for KiCad 6.
 
