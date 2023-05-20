@@ -114,6 +114,6 @@ I really hope you've found this library useful. If you'd like to buy me a beer i
 
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
-## FAQ Placeholder
+## FAQ
 
 No-one has asked any questions about this library yet. If they do so, this section will be updated.
