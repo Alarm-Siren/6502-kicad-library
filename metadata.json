@@ -1,0 +1,31 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "RetroLib: KiCad Library for 6502-related retro microchips",
+    "description": "KiCad Symbol Library for 6502 and related retro microchips",
+    "description_full": "You may need to manually update the library tables in the Library Manager to get the new symbols and footprints to show up: please refer to the GitHub link below for full documentation and installation instructions.\n\nThis is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technologies 6502.",
+    "identifier": "com.github.alarm-siren.arduino-kicad-library",
+    "type": "library",
+    "author": {
+        "name": "Nicholas Parks Young",
+        "contact": {
+            "web": "https://github.com/Alarm-Siren/"
+        }
+    },
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "github": "https://github.com/Alarm-Siren/6502-kicad-library"
+    },
+    "tags": [
+        "footprints",
+        "symbols",
+        "arduino",
+        "modules"
+    ],
+    "versions": [
+        {
+            "version": "3.0.0",
+            "status": "testing",
+            "kicad_version": "6.0"
+        }
+    ]
+}

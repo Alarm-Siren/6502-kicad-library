@@ -1,9 +1,11 @@
-# 6502 KiCad Library
-*Version 2.0.2*
+# RetroLib: KiCad Symbol Library for 6502 and related retro microchips
+*Version 3.0.0*
 
-Library of schematic components of a variety of Commodore, MOS Technologies and Wester Design Center chips for KiCad 6.
+![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-53-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
 
-Currently included are:
+This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technologies 6502.
+
+Currently included microchips:
 - 6502 8-bit NMOS Microprocessor, 64K, DIP-40
 - 6503 8-bit NMOS Microprocessor, 4K, DIP-28
 - 6504 8-bit NMOS Microprocessor, 8K, DIP-28
@@ -62,36 +64,69 @@ Planned for future inclusion:
 - The VIC, VIC-II and VIC-IIe
 - The TED
 
-## Schematic Compatibility Between Similar Components
-
-The schematic components in this library have been specifically laid out such that chips with similar function and purpose will have compatible/equivalent pins in the same position, and incompatible pins will not overlap. This means it should be easy to replace one similar component with another, with minimal or no re-wiring; it also means that such a replacement should not result in a signal being routed to an incompatible pin by accident.
-
-For example, if you were creating a design with the 6502 part, but then decided to replace it with a 6512 part, the phase 0 and phase 2 pins are in the same location because they have compatible functionality, but the phase 1 pins are not because on the 6512 it is an input, whilst on the 6502 it is an output.
-
-## Compatibility with KiCad 5
-
-This library is in the new KiCad 6 "S-Expressions" format, and is not compatible with KiCad 5. If you need compatibility with KiCad 5, please use version 1.0.0 of this repository - but be aware that said version does not contain all features and is not being maintained.
+## KiCad Version Compatibility
+This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
 
 ## Comments, Requests, Bugs & Contributions
-All are welcome.  
-Please file an Issue or Pull Request at https://github.com/Alarm-Siren/6502-Kicad-library
+All are welcome!
+Please open an [Issue](https://github.com/Alarm-Siren/6502-Kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/6502-Kicad-library/pulls), as appropriate.
 
-## License
-Copyright 2018-2022, Nicholas Parks Young. All Rights Reserved.  
-This library is licensed under the GNU LGPL v2.1, which can be found in file LICENSE.txt.
+## Library Installation
+To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
+
+### KiCad 7
+
+1. Download the `6502-kicad-library-3.0.0-pcm.zip` library file from the [Releases page](https://github.com/Alarm-Siren/6502-kicad-library/releases), and save it somewhere you'll be able to find it easily.
+2. Open KiCad and open the Preferences window at "Preferences" -> "Preferences..."
+3. Select the "Plugin and Content Manager" section in the left-hand pane.
+4. Ensure that the "Automatically add installed libraries to the global lib table" option is ticked.
+5. Ensuring that the "Library nickname prefix" is set to "PCM_" is recommended. **(Optional)**
+6. Ensuring that the "Check for package updates on startup" option is ticked is recommended. **(Optional)**
+7. Click "OK" to close the Preferences window.
+8. Click the "Plugin and Content Manager" button.
+
+
+9. Select the "KiCad official repository" from the top drop-down box (if not already selected).
+9. Go the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
+10. Click the "Install" button for that entry in the list.
+11. Click "Apply Pending Changes".
+12. Close the "Applying Package Changes" window once it has finished.
+13. You should now find that this library is listed in the "Installed" tab.
+14. Close the Plugin and Content Manager.
+15. You may need to restart KiCad for the library installation to fully take effect. **(Optional)**
+16. All done: you are now ready to use these schematic components and footprints in your projects!
+
+### KiCad 6
+**Recommendation:** If you can, you should upgrade to KiCad 7.
+
+1. Open KiCad and click the "Plugin and Content Manager" button.
+2. Select the "KiCad official repository" from the top drop-down box (if not already selected).
+3. Go the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
+4. Click the "Install" button for that entry in the list.
+5. Click "Apply Changes".
+6. Close the "Applying Package Changes" window once it has finished.
+7. You should now find that this library is listed in the "Installed" tab.
+8. Close the Plugin and Content Manager.
+9. Go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
+10. In the Symbol Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
+11. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+12. In the new line of the table, set the Nickname to "PCM_arduino-library", and ensure the Library Format is set to "KiCad".
+13. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/symbols/com_github_alarm-siren_arduino-kicad-library/arduino-library.kicad_sym".
+14. Click "OK" to close the Symbol Libraries dialogue.
+15. Go to "Preferences" -> "Manage Footprint Libraries..." menu option.
+16. In the Footprint Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
+17. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+18. In the new line of the table, set the Nickname to "PCM_arduino-library", and ensure the Library Format is set to "KiCad".
+19. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/footprints/com_github_alarm-siren_arduino-kicad-library/arduino-library.pretty".
+20. Click "OK" to close the Footprint Libraries dialogue.
+21. All done: you are now ready to use these schematic components and footprints in your projects!
 
 ## Donations
 
-If you've found this library useful and you'd like to make a donation towards its continued upkeep, click the button below:
+I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
 
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
-## Library Setup
-To add this library to your KiCad Project, do the following steps:
-1. Copy the source files "65xx.kicad_sym" to the root of your KiCad project's folder.
-2. In Schematic Editor go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
-3. In the Symbol Libraries dialogue that appears, switch to the "Project Specific Libraries" tab.
-4. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-5. In the new line of the table, set Library Path to "${KIPRJMOD}\65xx.kicad_sym" on Windows or "${KIPRJMOD}/65xx.kicad_sym" on Linux/Mac, and ensure Plugin Type is "KiCad".
-6. You can leave the Options and Description fields blank. You should set Nickname to something descriptive - for example, "65xx library".
-7. All done: you are now ready to use these schematic components in your project!
+## FAQ Placeholder
+
+No-one has asked any questions about this library yet. If they do so, this section will be updated.
