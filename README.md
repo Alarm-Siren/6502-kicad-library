@@ -3,7 +3,7 @@
 
 ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-53-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
 
-This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technologies 6502.
+This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
 Currently included microchips:
 - 6502 8-bit NMOS Microprocessor, 64K, DIP-40
@@ -84,42 +84,29 @@ To install this library in your copy of KiCad, choose the correct section for yo
 6. Ensuring that the "Check for package updates on startup" option is ticked is recommended. **(Optional)**
 7. Click "OK" to close the Preferences window.
 8. Click the "Plugin and Content Manager" button.
-
-
-9. Select the "KiCad official repository" from the top drop-down box (if not already selected).
-9. Go the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
-10. Click the "Install" button for that entry in the list.
-11. Click "Apply Pending Changes".
-12. Close the "Applying Package Changes" window once it has finished.
-13. You should now find that this library is listed in the "Installed" tab.
-14. Close the Plugin and Content Manager.
-15. You may need to restart KiCad for the library installation to fully take effect. **(Optional)**
-16. All done: you are now ready to use these schematic components and footprints in your projects!
+9. Click the "Install from File..." button.
+10. Navigate to, select and open the library file you downloaded earlier.
+11. You should now find that this library is listed in the "Installed" tab.
+12. Close the Plugin and Content Manager.
+13. You may need to restart KiCad for the library installation to fully take effect. **(Optional)**
+14. All done: you are now ready to use these schematic symbols in your projects!
 
 ### KiCad 6
 **Recommendation:** If you can, you should upgrade to KiCad 7.
 
-1. Open KiCad and click the "Plugin and Content Manager" button.
-2. Select the "KiCad official repository" from the top drop-down box (if not already selected).
-3. Go the Libraries tab and locate the "KiCad Library for Arduino Modules" in the list.
-4. Click the "Install" button for that entry in the list.
-5. Click "Apply Changes".
-6. Close the "Applying Package Changes" window once it has finished.
-7. You should now find that this library is listed in the "Installed" tab.
-8. Close the Plugin and Content Manager.
-9. Go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
-10. In the Symbol Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
-11. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-12. In the new line of the table, set the Nickname to "PCM_arduino-library", and ensure the Library Format is set to "KiCad".
-13. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/symbols/com_github_alarm-siren_arduino-kicad-library/arduino-library.kicad_sym".
-14. Click "OK" to close the Symbol Libraries dialogue.
-15. Go to "Preferences" -> "Manage Footprint Libraries..." menu option.
-16. In the Footprint Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
-17. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-18. In the new line of the table, set the Nickname to "PCM_arduino-library", and ensure the Library Format is set to "KiCad".
-19. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/footprints/com_github_alarm-siren_arduino-kicad-library/arduino-library.pretty".
-20. Click "OK" to close the Footprint Libraries dialogue.
-21. All done: you are now ready to use these schematic components and footprints in your projects!
+1. Download the `6502-kicad-library-3.0.0-pcm.zip` library file from the [Releases page](https://github.com/Alarm-Siren/6502-kicad-library/releases), and save it somewhere you'll be able to find it easily.
+2. Open KiCad and click the "Plugin and Content Manager" button.
+3. Click the "Install from File..." button.
+4. Navigate to, select and open the library file you downloaded earlier.
+5. You should now find that this library is listed in the "Installed" tab.
+6. Close the Plugin and Content Manager.
+7. Go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
+8. In the Symbol Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
+9. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+10. In the new line of the table, set the Nickname to "PCM_65xx-library", and ensure the Library Format is set to "KiCad".
+11. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/symbols/com_github_alarm-siren_6502-kicad-library/65xx-library.kicad_sym".
+12. Click "OK" to close the Symbol Libraries dialogue.
+13. All done: you are now ready to use these schematic symbols in your projects!
 
 ## Donations
 
