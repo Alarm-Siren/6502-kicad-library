@@ -6,11 +6,11 @@
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
 Currently included microchips:
-- MCS 6502 8-bit NMOS Microprocessor, 64K, DIP-40
-- MCS 6503 8-bit NMOS Microprocessor, 4K, DIP-28
-- MCS 6504 8-bit NMOS Microprocessor, 8K, DIP-28
-- MCS 6505 8-bit NMOS Microprocessor, 4K, DIP-28
-- MCS 6506 8-bit NMOS Microprocessor, 4K, DIP-28
+- 6502 8-bit NMOS Microprocessor, 64K, DIP-40
+- 6503 8-bit NMOS Microprocessor, 4K, DIP-28
+- 6504 8-bit NMOS Microprocessor, 8K, DIP-28
+- 6505 8-bit NMOS Microprocessor, 4K, DIP-28
+- 6506 8-bit NMOS Microprocessor, 4K, DIP-28
 - 6507 8-bit NMOS Microprocessor, 8K, DIP-28
 - 6508 8-bit NMOS Microprocessor, 64K, 8-bit I/O Port, 256 Byte RAM, DIP-40
 - 6509 8-bit NMOS Microprocessor, 16x64K, DIP-40
@@ -18,10 +18,10 @@ Currently included microchips:
 - 6510-1 8-bit NMOS/HMOS Microprocessor, 64K, 8-bit I/O Port, 2ϕ Clock, DIP-40
 - 6510-2 8-bit NMOS/HMOS Microprocessor, 64K, 8-bit I/O Port, DIP-40
 - 6510T 8-bit NMOS/HMOS Microprocessor, 64K, 8-bit I/O Port, DIP-40
-- MCS 6512 8-bit NMOS Microprocessor, 64K, 2ϕ Clock, DIP-40
-- MCS 6513 8-bit NMOS Microprocessor, 4K, 2ϕ Clock, DIP-28
-- MCS 6514 8-bit NMOS Microprocessor, 8K, 2ϕ Clock, DIP-28
-- MCS 6515 8-bit NMOS Microprocessor, 4K, 2ϕ Clock, DIP-28
+- 6512 8-bit NMOS Microprocessor, 64K, 2ϕ Clock, DIP-40
+- 6513 8-bit NMOS Microprocessor, 4K, 2ϕ Clock, DIP-28
+- 6514 8-bit NMOS Microprocessor, 8K, 2ϕ Clock, DIP-28
+- 6515 8-bit NMOS Microprocessor, 4K, 2ϕ Clock, DIP-28
 - 6520 NMOS Peripheral Interface Adapter (PIA), 20-pin I/O, DIP-40
 - 6522 NMOS Versatile Interface Adapter (VIA), 20-pin I/O, 2 Timer/Counters, DIP-40
 - 6523 NMOS Tri-Port Interface (TPI), 24-pin I/O, DIP-40
@@ -31,22 +31,22 @@ Currently included microchips:
 - 6532 NMOS Memory, I/O and Timer Array (RIOT), 16-pin I/O, 1 Timer/Counter, 128-byte SRAM, DIP-40
 - 6545 NMOS CRT Controller (CRTC), DIP-40
 - 6551 NMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, DIP-28
-- MCS 6560-001 NMOS Video Interface Chip (VIC), 192x200 NTSC, 2MHz Clock Option, DIP-40
-- MCS 6560-101 NMOS Video Interface Chip (VIC), 192x200 NTSC, Light Pen Option, DIP-40
-- MCS 6560-201 NMOS Video Interface Chip (VIC), 192x200 NTSC, Vertical Sync Reset Option, DIP-40
-- MCS 6560-301 NMOS Video Interface Chip (VIC), 192x200 NTSC, Bus Available Option, DIP-40
-- MCS 6561-001 NMOS Video Interface Chip (VIC), 192x200 PAL, 2MHz Clock Option, DIP-40
-- MCS 6561-101 NMOS Video Interface Chip (VIC), 192x200 PAL, Light Pen Option, DIP-40
-- MCS 6561-201 NMOS Video Interface Chip (VIC), 192x200 PAL, Vertical Sync Reset Option, DIP-40
-- MCS 6561-301 NMOS Video Interface Chip (VIC), 192x200 PAL, Bus Available Option, DIP-40
-- MCS 6562-001 NMOS Video Interface Chip (VIC), 320x200 NTSC, 2MHz Clock Option, DIP-40
-- MCS 6562-101 NMOS Video Interface Chip (VIC), 320x200 NTSC, Light Pen Option, DIP-40
-- MCS 6562-201 NMOS Video Interface Chip (VIC), 320x200 NTSC, Vertical Sync Reset Option, DIP-40
-- MCS 6562-301 NMOS Video Interface Chip (VIC), 320x200 NTSC, Bus Available Option, DIP-40
-- MCS 6563-001 NMOS Video Interface Chip (VIC), 320x200 PAL, 2MHz Clock Option, DIP-40
-- MCS 6563-101 NMOS Video Interface Chip (VIC), 320x200 PAL, Light Pen Option, DIP-40
-- MCS 6563-201 NMOS Video Interface Chip (VIC), 320x200 PAL, Vertical Sync Reset Option, DIP-40
-- MCS 6563-301 NMOS Video Interface Chip (VIC), 320x200 PAL, Bus Available Option, DIP-40
+- 6560-001 NMOS Video Interface Chip (VIC), 192x200 NTSC, 2MHz Clock Option, DIP-40
+- 6560-101 NMOS Video Interface Chip (VIC), 192x200 NTSC, Light Pen Option, DIP-40
+- 6560-201 NMOS Video Interface Chip (VIC), 192x200 NTSC, Vertical Sync Reset Option, DIP-40
+- 6560-301 NMOS Video Interface Chip (VIC), 192x200 NTSC, Bus Available Option, DIP-40
+- 6561-001 NMOS Video Interface Chip (VIC), 192x200 PAL, 2MHz Clock Option, DIP-40
+- 6561-101 NMOS Video Interface Chip (VIC), 192x200 PAL, Light Pen Option, DIP-40
+- 6561-201 NMOS Video Interface Chip (VIC), 192x200 PAL, Vertical Sync Reset Option, DIP-40
+- 6561-301 NMOS Video Interface Chip (VIC), 192x200 PAL, Bus Available Option, DIP-40
+- 6562-001 NMOS Video Interface Chip (VIC), 320x200 NTSC, 2MHz Clock Option, DIP-40
+- 6562-101 NMOS Video Interface Chip (VIC), 320x200 NTSC, Light Pen Option, DIP-40
+- 6562-201 NMOS Video Interface Chip (VIC), 320x200 NTSC, Vertical Sync Reset Option, DIP-40
+- 6562-301 NMOS Video Interface Chip (VIC), 320x200 NTSC, Bus Available Option, DIP-40
+- 6563-001 NMOS Video Interface Chip (VIC), 320x200 PAL, 2MHz Clock Option, DIP-40
+- 6563-101 NMOS Video Interface Chip (VIC), 320x200 PAL, Light Pen Option, DIP-40
+- 6563-201 NMOS Video Interface Chip (VIC), 320x200 PAL, Vertical Sync Reset Option, DIP-40
+- 6563-301 NMOS Video Interface Chip (VIC), 320x200 PAL, Bus Available Option, DIP-40
 - 6581 NMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
 - 6582 NMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
 - 65CE02 8-bit CMOS Microprocessor, 64K, DIP-40
