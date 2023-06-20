@@ -114,6 +114,15 @@ I really hope you've found this library useful. If you'd like to buy me a beer i
 
 [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
 
+## License & Legal
+Copyright 2018-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
+
+Except as otherwise noted, all content of this library is licensed under the 
+[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following additional exception:
+> To the extent that the creation of electronic designs that use the Licensed Material can be considered to be Adapted Material, the Licensor waives Section 3 of the Public License with respect to these electronic designs and any generated files which incorporate data provided as part of the Licensed Material.
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ## FAQ
 
 No-one has asked any questions about this library yet. If they do so, this section will be updated.
