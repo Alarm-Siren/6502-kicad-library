@@ -3,7 +3,7 @@
 # RetroLib: KiCad Symbol Library for 6502 and related retro microchips
 *Version 3.0.0*
 
-![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-69-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-69-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
 
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
@@ -72,7 +72,7 @@ Except as otherwise noted, all content of this library is licensed under the
 
 Answers to some common questions about this library.
 
-### Can you give me a complete list of all microchips included in this library?
+### Can you give me a full list of all the microchips included in this library?
 
 I sure can!
 
