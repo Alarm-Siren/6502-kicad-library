@@ -1,3 +1,5 @@
+![RetroLib: KiCad Symbol Library for 6502 and related retro microchips logo](/resources/icon.png)
+
 # RetroLib: KiCad Symbol Library for 6502 and related retro microchips
 *Version 3.0.0*
 
@@ -5,7 +7,75 @@
 
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
-Currently included microchips:
+For a complete list of included parts, please see the [FAQ](#FAQ).
+
+## KiCad Version Compatibility
+This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
+
+## Comments, Requests, Bugs & Contributions
+All are welcome!
+Please open an [Issue](https://github.com/Alarm-Siren/6502-Kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/6502-Kicad-library/pulls), as appropriate.
+
+## Library Installation
+To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
+
+### KiCad 7
+
+1. Download the `6502-kicad-library-3.0.0-pcm.zip` library file from the [Releases page](https://github.com/Alarm-Siren/6502-kicad-library/releases), and save it somewhere you'll be able to find it easily.
+2. Open KiCad and open the Preferences window at "Preferences" -> "Preferences..."
+3. Select the "Plugin and Content Manager" section in the left-hand pane.
+4. Ensure that the "Automatically add installed libraries to the global lib table" option is ticked.
+5. Ensuring that the "Library nickname prefix" is set to "PCM_" is recommended. **(Optional)**
+6. Ensuring that the "Check for package updates on startup" option is ticked is recommended. **(Optional)**
+7. Click "OK" to close the Preferences window.
+8. Click the "Plugin and Content Manager" button.
+9. Click the "Install from File..." button.
+10. Navigate to, select and open the library file you downloaded earlier.
+11. You should now find that this library is listed in the "Installed" tab.
+12. Close the Plugin and Content Manager.
+13. You may need to restart KiCad for the library installation to fully take effect. **(Optional)**
+14. All done: you are now ready to use these schematic symbols in your projects!
+
+### KiCad 6
+**Recommendation:** If you can, you should upgrade to KiCad 7.
+
+1. Download the `6502-kicad-library-3.0.0-pcm.zip` library file from the [Releases page](https://github.com/Alarm-Siren/6502-kicad-library/releases), and save it somewhere you'll be able to find it easily.
+2. Open KiCad and click the "Plugin and Content Manager" button.
+3. Click the "Install from File..." button.
+4. Navigate to, select and open the library file you downloaded earlier.
+5. You should now find that this library is listed in the "Installed" tab.
+6. Close the Plugin and Content Manager.
+7. Go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
+8. In the Symbol Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
+9. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
+10. In the new line of the table, set the Nickname to "PCM_65xx-library", and ensure the Library Format is set to "KiCad".
+11. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/symbols/com_github_alarm-siren_6502-kicad-library/65xx-library.kicad_sym".
+12. Click "OK" to close the Symbol Libraries dialogue.
+13. All done: you are now ready to use these schematic symbols in your projects!
+
+## Donations
+
+I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
+
+[![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
+
+## License & Legal
+Copyright 2018-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
+
+Except as otherwise noted, all content of this library is licensed under the 
+[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following additional exception:
+> To the extent that the creation of electronic designs that use the Licensed Material can be considered to be Adapted Material, the Licensor waives Section 3 of the Public License with respect to these electronic designs and any generated files which incorporate data provided as part of the Licensed Material.
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+## FAQ
+
+Answers to some common questions about this library.
+
+### Can you give me a complete list of all microchips included in this library?
+
+I sure can!
+
 - 6502 8-bit NMOS Microprocessor, 64K, DIP-40
 - 6503 8-bit NMOS Microprocessor, 4K, DIP-28
 - 6504 8-bit NMOS Microprocessor, 8K, DIP-28
@@ -79,66 +149,3 @@ Currently included microchips:
 Planned for future inclusion:
 - The VIC-II and VIC-IIe
 - The TED
-
-## KiCad Version Compatibility
-This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
-
-## Comments, Requests, Bugs & Contributions
-All are welcome!
-Please open an [Issue](https://github.com/Alarm-Siren/6502-Kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/6502-Kicad-library/pulls), as appropriate.
-
-## Library Installation
-To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
-
-### KiCad 7
-
-1. Download the `6502-kicad-library-3.0.0-pcm.zip` library file from the [Releases page](https://github.com/Alarm-Siren/6502-kicad-library/releases), and save it somewhere you'll be able to find it easily.
-2. Open KiCad and open the Preferences window at "Preferences" -> "Preferences..."
-3. Select the "Plugin and Content Manager" section in the left-hand pane.
-4. Ensure that the "Automatically add installed libraries to the global lib table" option is ticked.
-5. Ensuring that the "Library nickname prefix" is set to "PCM_" is recommended. **(Optional)**
-6. Ensuring that the "Check for package updates on startup" option is ticked is recommended. **(Optional)**
-7. Click "OK" to close the Preferences window.
-8. Click the "Plugin and Content Manager" button.
-9. Click the "Install from File..." button.
-10. Navigate to, select and open the library file you downloaded earlier.
-11. You should now find that this library is listed in the "Installed" tab.
-12. Close the Plugin and Content Manager.
-13. You may need to restart KiCad for the library installation to fully take effect. **(Optional)**
-14. All done: you are now ready to use these schematic symbols in your projects!
-
-### KiCad 6
-**Recommendation:** If you can, you should upgrade to KiCad 7.
-
-1. Download the `6502-kicad-library-3.0.0-pcm.zip` library file from the [Releases page](https://github.com/Alarm-Siren/6502-kicad-library/releases), and save it somewhere you'll be able to find it easily.
-2. Open KiCad and click the "Plugin and Content Manager" button.
-3. Click the "Install from File..." button.
-4. Navigate to, select and open the library file you downloaded earlier.
-5. You should now find that this library is listed in the "Installed" tab.
-6. Close the Plugin and Content Manager.
-7. Go to the "Preferences" -> "Manage Symbol Libraries..." menu option.
-8. In the Symbol Libraries dialogue that appears, switch to the "Global Libraries" tab (if not already selected).
-9. Click "Add empty row to table" button (the button with a big cross in it, beneath the table).
-10. In the new line of the table, set the Nickname to "PCM_65xx-library", and ensure the Library Format is set to "KiCad".
-11. In the same line of the table, set Library Path to "${KICAD6_3RD_PARTY}/symbols/com_github_alarm-siren_6502-kicad-library/65xx-library.kicad_sym".
-12. Click "OK" to close the Symbol Libraries dialogue.
-13. All done: you are now ready to use these schematic symbols in your projects!
-
-## Donations
-
-I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
-
-[![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
-
-## License & Legal
-Copyright 2018-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
-
-Except as otherwise noted, all content of this library is licensed under the 
-[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following additional exception:
-> To the extent that the creation of electronic designs that use the Licensed Material can be considered to be Adapted Material, the Licensor waives Section 3 of the Public License with respect to these electronic designs and any generated files which incorporate data provided as part of the Licensed Material.
-
-[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
-
-## FAQ
-
-No-one has asked any questions about this library yet. If they do so, this section will be updated.
