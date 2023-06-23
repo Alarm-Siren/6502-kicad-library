@@ -7,7 +7,7 @@
 
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
-For a complete list of included parts, please see the [FAQ](#FAQ).
+For a complete list of included parts, please see the [FAQ](#can-you-give-me-a-full-list-of-the-microchips-included-in-this-library).
 
 ## KiCad Version Compatibility
 This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
@@ -72,7 +72,15 @@ Except as otherwise noted, all content of this library is licensed under the
 
 Answers to some common questions about this library.
 
-### Can you give me a full list of all the microchips included in this library?
+### Is this library in active development?
+
+Yes. Whilst I consider the library to be feature complete, I will be providing bug-fixes for the foreseeable future, if any are found. I'm also open to requests to add new chips (time permitting).
+
+### What does the license exception in the License & Legal section mean?
+
+This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly better wording, but the effect is the same.
+
+### Can you give me a full list of the microchips included in this library?
 
 I sure can!
 
