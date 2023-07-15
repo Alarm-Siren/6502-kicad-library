@@ -3,7 +3,7 @@
 # RetroLib: KiCad Symbol Library for 6502 and related retro microchips
 *Version 3.0.0*
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-69-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-73-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
 
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
@@ -125,6 +125,10 @@ I sure can!
 - 6563-101 NMOS Video Interface Chip (VIC), 320x200 PAL, Light Pen Option, DIP-40
 - 6563-201 NMOS Video Interface Chip (VIC), 320x200 PAL, Vertical Sync Reset Option, DIP-40
 - 6563-301 NMOS Video Interface Chip (VIC), 320x200 PAL, Bus Available Option, DIP-40
+- 6567 NMOS Video Interface Chip II (VIC-II), 320x200 NTSC, DIP-40
+- 6569 NMOS Video Interface Chip II (VIC-II), 320x200 PAL-B, DIP-40
+- 6572 NMOS Video Interface Chip II (VIC-II), 320x200 PAL-N, DIP-40
+- 6573 NMOS Video Interface Chip II (VIC-II), 320x200 PAL-M, DIP-40
 - 6581 NMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
 - 6582 NMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
 - 65CE02 8-bit CMOS Microprocessor, 64K, DIP-40
@@ -155,5 +159,5 @@ I sure can!
 - W65C816S_Q 8/16-bit CMOS General Purpose Microprocessor, LQFP-44
 
 Planned for future inclusion:
-- The VIC-II and VIC-IIe
+- The VIC-IIe
 - The TED
