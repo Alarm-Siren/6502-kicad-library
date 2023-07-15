@@ -3,7 +3,7 @@
 # RetroLib: KiCad Symbol Library for 6502 and related retro microchips
 *Version 3.0.0*
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-73-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-75-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
 
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
@@ -134,6 +134,8 @@ I sure can!
 - 65CE02 8-bit CMOS Microprocessor, 64K, DIP-40
 - 8500 8-bit HMOS Microprocessor, 64K, 6-bit I/O Port, DIP-40
 - 8502 8-bit HMOS Microprocessor, 64K, 7-bit I/O Port, DIP-40
+- 8562 HMOS Video Interface Chip II (VIC-II), 320x200 NTSC, DIP-40
+- 8565 HMOS Video Interface Chip II (VIC-II), 320x200 PAL, DIP-40
 - 8580 HMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
 - W65C02S_P 8-bit CMOS General Purpose Microprocessor, DIP-40
 - W65C02S_PL 8-bit CMOS General Purpose Microprocessor, PLCC-44
