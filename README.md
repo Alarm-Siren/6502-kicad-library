@@ -135,7 +135,7 @@ I sure can!
 - 8500 8-bit HMOS Microprocessor, 64K, 6-bit I/O Port, DIP-40
 - 8502 8-bit HMOS Microprocessor, 64K, 7-bit I/O Port, DIP-40
 - 8562 HMOS Video Interface Chip II (VIC-II), 320x200 NTSC, DIP-40
-- 8565 HMOS Video Interface Chip II (VIC-II), 320x200 PAL, DIP-40
+- 8565 HMOS Video Interface Chip II (VIC-II), 320x200 PAL-B, DIP-40
 - 8580 HMOS Sound Interface Device (SID), 3-Voice Sound Synthesizer, DIP-28
 - W65C02S_P 8-bit CMOS General Purpose Microprocessor, DIP-40
 - W65C02S_PL 8-bit CMOS General Purpose Microprocessor, PLCC-44
@@ -159,7 +159,3 @@ I sure can!
 - W65C816S_P 8/16-bit CMOS General Purpose Microprocessor, DIP-40
 - W65C816S_PL 8/16-bit CMOS General Purpose Microprocessor, PLCC-44
 - W65C816S_Q 8/16-bit CMOS General Purpose Microprocessor, LQFP-44
-
-Planned for future inclusion:
-- The VIC-IIe
-- The TED
