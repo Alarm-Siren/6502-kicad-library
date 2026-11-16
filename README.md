@@ -7,7 +7,7 @@
 
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
-Quick Links: [Install Instructions](#library-installation) | [List of Included Arduino Modules](#can-you-give-me-a-full-list-of-the-modules-included-in-this-library) | [License](#license--legal) | [Donations](#donations) | [FAQ](#faq)
+Quick Links: [Install Instructions](#library-installation) | [List of Included Symbols](#can-you-give-me-a-full-list-of-the-microchips-included-in-this-library) | [License](#license--legal) | [Donations](#donations) | [FAQ](#faq)
 
 ## KiCad Version Compatibility
 This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
