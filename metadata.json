@@ -14,6 +14,8 @@
     "license": "CC-BY-SA-4.0",
     "resources": {
         "github": "https://github.com/Alarm-Siren/6502-kicad-library"
+        "documentation": "https://github.com/Alarm-Siren/6502-kicad-library#readme",
+        "support": "https://github.com/Alarm-Siren/6502-kicad-library/issues"
     },
     "tags": [
         "symbols",
@@ -25,7 +27,7 @@
     ],
     "versions": [
         {
-            "version": "3.0.0",
+            "version": "3.0.1",
             "status": "stable",
             "kicad_version": "6.0"
         }
