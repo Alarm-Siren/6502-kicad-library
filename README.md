@@ -3,23 +3,23 @@
 # RetroLib: KiCad Symbol Library for 6502 and related retro microchips
 *Version 3.0.0*
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) ![Required KiCad Version](https://img.shields.io/badge/kicad-%3E%3D6.0-critical) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-75-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
+[![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive) ![License](https://img.shields.io/github/license/alarm-siren/6502-kicad-library) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/alarm-siren/6502-kicad-library) ![Symbols](https://img.shields.io/badge/symbols-75-informational) ![Downloads](https://img.shields.io/github/downloads/alarm-siren/6502-kicad-library/total)
 
 This is a library of KiCad schematic symbols for a variety of Commodore, MOS Technology and Western Design Center retro microchips, including the eponymous MOS Technology 6502.
 
-For a complete list of included parts, please see the [FAQ](#can-you-give-me-a-full-list-of-the-microchips-included-in-this-library).
+Quick Links: [Install Instructions](#library-installation) | [List of Included Symbols](#can-you-give-me-a-full-list-of-the-microchips-included-in-this-library) | [License](#license--legal) | [Donations](#donations) | [FAQ](#faq)
 
 ## KiCad Version Compatibility
 This library requires at least KiCad 6 to function, and is tested on KiCad versions 6.0.8 and 7.0.2. Note that the installation procedure is different for KiCad 6 and 7; please see the [Library Installation](#library-installation) section below.
 
 ## Comments, Requests, Bugs & Contributions
 All are welcome!
-Please open an [Issue](https://github.com/Alarm-Siren/6502-Kicad-library/issues) or [Pull Request](https://github.com/Alarm-Siren/6502-Kicad-library/pulls), as appropriate.
+Please open an appropriate [Issue](https://github.com/Alarm-Siren/6502-kicad-library/issues) to discuss. Please note that due to technical limitations, in most cases direct pull requests will not be accepted on this repository going forward - instead I will need to manually incorporate your changes into the mainline.
 
 ## Library Installation
 To install this library in your copy of KiCad, choose the correct section for your version of KiCad and follow the steps given. These instructions only cover automated installation using KiCad's built-in Package and Content Manager (PCM); manual installation is possible but not supported.
 
-### KiCad 7
+### KiCad 7+
 
 1. Download the `6502-kicad-library-3.0.0-pcm.zip` library file from the [Releases page](https://github.com/Alarm-Siren/6502-kicad-library/releases), and save it somewhere you'll be able to find it easily.
 2. Open KiCad and open the Preferences window at "Preferences" -> "Preferences..."
@@ -55,18 +55,26 @@ To install this library in your copy of KiCad, choose the correct section for yo
 
 ## Donations
 
-I really hope you've found this library useful. If you'd like to buy me a beer in thanks for the work I put into it, you can make a donation using the button below:
+I really hope you've found this library useful. If you'd like to buy me a coffee in thanks for the work I put into it, you can make a donation using the button below:
 
-[![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UX25HM4CZFFWW)
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=alarm.siren&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/alarm.siren)
 
 ## License & Legal
-Copyright 2018-2023, [Nicholas Parks Young](https://github.com/Alarm-Siren).
+Copyright 2018-2026, [Nicholas Parks Young](https://github.com/Alarm-Siren).
 
 Except as otherwise noted, all content of this library is licensed under the 
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), with the following additional exception:
 > To the extent that the creation of electronic designs that use the Licensed Material can be considered to be Adapted Material, the Licensor waives Section 3 of the Public License with respect to these electronic designs and any generated files which incorporate data provided as part of the Licensed Material.
 
 [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+### Trademarks
+
+"Commodore", "MOS Technology" and "Western Design Center" are registered trademarks belonging to their respective owners. These trademarks are used in this library to refer to these companys' products and to identify related non-commercial content, as permitted by trademark law. This project is not affiliated with nor endorsed by any of these companies.
+
+### Warranty Disclaimer
+
+This library is provided in the hope that it will be useful, but without any warranties of any kind. Your use of this library is at your own risk. For the full warranty disclaimer, see Section 5 of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## FAQ
 
@@ -76,9 +84,13 @@ Answers to some common questions about this library.
 
 Yes. Whilst I consider the library to be feature complete, I will be providing bug-fixes for the foreseeable future, if any are found. I'm also open to requests to add new chips (time permitting).
 
+### Why don't you accept direct pull requests?
+
+KiCad files are not really plaintext, and they change format between both major and minor versions of KiCad. Consequently, unless you have made your edits using *exactly* the same version KiCad as I'm using in the mainline, the two branches become impossible to merge.
+
 ### What does the license exception in the License & Legal section mean?
 
-This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly better wording, but the effect is the same.
+This library uses the same license as KiCad's own built-in parts library does, including the exception. The KiCad Libraries team have a [page which explains the meaning of the exception](https://www.kicad.org/libraries/license/). My version of the exception uses slightly improved wording, but the effect is the same.
 
 ### Can you give me a full list of the microchips included in this library?
 
